@@ -3,7 +3,7 @@ import React from "react";
 
 const ComingSoon = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-white px-4">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-white px-4 mt-120">
       {/* <div className="">
          <img
           src="../images/Frame 52757.png"
@@ -19,13 +19,13 @@ const ComingSoon = () => {
       </div> */}
        <div className="relative mt-36">
          <img
-          src="../images/Frame 52757.png"
+          src="/images/Frame 52757.png"
           alt="Walking Illustration"
            className="w-auto h-auto mt-20 animate-skate absolute top-[-120px] z-1 "
         />
 
         <img
-          src="../images/Frame 1000000879.png"
+          src="/images/Frame 1000000879.png"
           alt="Walking Illustration"
            className="w-100"
         />
@@ -55,44 +55,44 @@ const ComingSoon = () => {
         <div className="flex animate-scroll gap-0">
         
           <img
-            src="../images/Comingsoonimg3.png"
+            src="/images/Comingsoonimg3.png"
             alt="Gallery 1"
             className="rounded-lg w-100"
           />
           <img
-            src="../images/Comingsoonimg3.png"
+            src="/images/Comingsoonimg3.png"
             alt="Gallery 2"
             className="rounded-lg w-100"
           />
           <img
-            src="../images/Comingsoonimg3.png"
+            src="/images/Comingsoonimg3.png"
             alt="Gallery 3"
             className="rounded-lg w-100"
           />
           <img
-            src="../images/Comingsoonimg4.png"
+            src="/images/Comingsoonimg4.png"
             alt="Gallery 4"
             className="rounded-lg w-100"
           />
 
      
           <img
-            src="../images/Comingsoonimg3.png"
+            src="/images/Comingsoonimg3.png"
             alt="Gallery 1"
             className="rounded-lg w-100"
           />
           <img
-            src="../images/Comingsoonimg3.png"
+            src="/images/Comingsoonimg3.png"
             alt="Gallery 2"
             className="rounded-lg w-100"
           />
           <img
-            src="../images/Comingsoonimg3.png"
+            src="/images/Comingsoonimg3.png"
             alt="Gallery 3"
             className="rounded-lg w-100"
           />
           <img
-            src="../images/Comingsoonimg4.png"
+            src="/images/Comingsoonimg4.png"
             alt="Gallery 4"
             className="rounded-lg w-100"
           />
