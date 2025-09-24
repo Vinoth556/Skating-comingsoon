@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+
+
+
+
+@keyframes skate {
+    0% {
+      transform: translateX(0);
+    }
+   
+    100% {
+      transform: translateX(300px);
+    }
+  }
+@media (max-width: 640px) {
+  @keyframes skate {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(150px); 
+    }
+  }
+}
+@media (max-width: 400px) {
+  .animate-skate{
+    top: -144px !important;
+  }
+}
+  .animate-skate {
+    animation: skate 4s ease-in-out infinite;
+  }
+.animate-scroll {
+            animation: scroll 6s linear infinite;
+          }
+          @keyframes scroll {
+            0% {
+              transform: translateX(0);
+            }
+            100% {
+              transform: translateX(-50%);
+            }
+          }
+
+
+.demo {
+  position: relative;
+}
+
+.demo::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0; 
+  left: 150px;              /* stick to right side */
+  width: 2px;             /* border thickness */
+  height: 100%;           /* full height */
+  background-color: gray; /* border color */
+}
