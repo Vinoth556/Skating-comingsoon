@@ -25,7 +25,17 @@
 }
 @media (max-width: 400px) {
   .animate-skate{
-    top: -144px !important;
+    top: -150px !important;
+  }
+}
+  .animate-skate {
+    animation: skate 4s ease-in-out infinite;
+  }
+
+
+  @media (max-width: 430px) {
+  .animate-skate{
+    top: -150px !important;
   }
 }
   .animate-skate {
